@@ -1,0 +1,85 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background: #B0EDFF;
+}
+
+button, input[type="submit"] { cursor: pointer; }
+
+.form
+{
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 10vh;
+    width: 50%;
+    height: 40%;
+    padding: 25px 0;
+    border: 1px solid black;
+}
+
+.form input
+{
+    margin: 10px 0;
+    border: none;
+}
+
+.form input[type="number"] 
+{ 
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 50%; 
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{
+    -webkit-appearance: none;
+}
+
+.form input[type="submit"] 
+{  
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    width: 130px;
+    padding: 15px 0;
+    border-radius: 30px;
+    background: #44FF4C;
+    font-weight: bold;
+    display: block;
+}
+
+.form input[type="submit"]:hover 
+{
+    width: 50%;
+    background: #32D839;
+    animation: "button 1s 2s";
+    transition: 0.8s;
+}
+
+.vysledok
+{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 70%;
+    width: 100%;
+    height: 30vh;
+    background: white; 
+}
+
+.vysledok-text
+{
+    position: relative;
+    transform: translateY(-50%);
+    text-align: center;
+    top: 50%;
+    font-size: 24px;
+    font-weight: bold;
+}
